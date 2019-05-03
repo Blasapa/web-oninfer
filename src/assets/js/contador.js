@@ -19,6 +19,9 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   $('.c-contador-dias').text(days);
+  $('.c-contador-horas').text(hours);
+  $('.c-contador-minutos').text(minutes);
+  $('.c-contador-segundos').text(seconds);
 
 
 
