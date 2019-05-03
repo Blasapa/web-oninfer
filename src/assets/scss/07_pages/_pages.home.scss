@@ -1,6 +1,16 @@
 .p-h-logo{
   width: 360px;
   height: 253px;
+  margin-bottom: 60px;
+}
+
+.p-h-cabecera{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  img{
+    width: 950px;
+  }
 }
 
 .p-h-codigo{

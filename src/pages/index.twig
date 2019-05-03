@@ -1,36 +1,48 @@
 {# ----- HOME ----- #}
 {% extends "_layouts/page.twig" %}
 {% block page %}
-    <section>
+    <section class="u-mb+++">
        <div class="container">
-           <div class="c-cabecera">
-            <div>
-                <img class="p-h-logo" src="/assets/images/logo.jpg" alt="Logo">
-                <div class="c-contador">
-                    <div class="c-contador__item">
-                        <p class="c-contador-dias"></p>
-                        <span>días</span>
-                    </div>
-                    <div class="c-contador__item">
-                        <p class="c-contador-horas"></p>
-                        <span>horas</span>
-                    </div>
-                    <div class="c-contador__item">
-                        <p class="c-contador-minutos"></p>
-                        <span>minutos</span>
-                    </div>
-                    <div class="c-contador__item">
-                        <p class="c-contador-segundos"></p>
-                        <span>segundos</span>
+           <div class="row">
+                <div class="col-5">
+                    <img class="p-h-logo" src="/assets/images/logo.jpg" alt="Logo">
+                    <div class="c-contador">
+                        <div class="c-contador__item">
+                            <p class="c-contador-dias"></p>
+                            <span>días</span>
+                        </div>
+                        <div class="c-contador__item">
+                            <p class="c-contador-horas"></p>
+                            <span>horas</span>
+                        </div>
+                        <div class="c-contador__item">
+                            <p class="c-contador-minutos"></p>
+                            <span>minutos</span>
+                        </div>
+                        <div class="c-contador__item">
+                            <p class="c-contador-segundos"></p>
+                            <span>segundos</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-               <div>
-                   <img src="" alt="">
+               <div class="p-h-cabecera">
+                   <div class="col-8">
+                       <div class="js-carousel">
+                           <div>
+                               <img src="/assets/images/oninyfer.png">
+                           </div>
+                           <div>
+                               <img src="/assets/images/oninyfer1.jpg">
+                           </div>
+                           <div>
+                               <img src="/assets/images/oninyfer2.jpg">
+                           </div>
+
+                       </div>
+                   </div>
+               </div>
                </div>
            </div>
-
-       </div>
     </section>
 
     <section>
@@ -158,15 +170,17 @@
     <section id="regalos">
         <div class="container">
             <div class="row">
-                <div class="offset-3 col-6 text-center">
+                <div class="offset-3 col-6 text-center mb-3">
                     <h2 class="c-titulo-destacado mb-7">El mejor regalo es que vengas</h2>
                     <p>Solo con tenerte con nosotros celebrando nuestra boda es suficiente, pero si quieres hacernos un regalo, te dejamos aquí el número de cuenta para que te sea más sencillo. ¡Gracias por adelantado!</p>
                     <a data-toggle="collapse" href="#numero" role="button" aria-expanded="false" aria-controls="numero" class="c-link">Ver el número de cuenta</a>
                 </div>
-                <div class="collapse" id="numero">
-                    <div class="p-h-numero">
-                    <div class="offset-3 col-6 text-center">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                <div class="col-12">
+                    <div class="collapse" id="numero">
+                        <div class="p-h-numero">
+                        <div class="offset-3 col-6 text-center">
+                            ES99 9999 99 9999999999
+                        </div>
                     </div>
                 </div>
                 </div>
