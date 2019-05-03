@@ -1,10 +1,16 @@
 /* Colores Marca */
 $red: #E73F39;
-$red-light: #fad9d7;
 $black: #222;
 $gray-light: #dddddd;
 $gray: #999;
-$gray-dark: #666;
+
+
+$red-light: #fe9683;
+$blue:#77abd8;
+$blue-dark:#26668C;
+$gray-dark: #6B7176;
+
+
 
 
 // breakpoints de bootstrap
@@ -36,11 +42,11 @@ $modularscale: (
   ratio: 1.125
 );
 
-/*
-$font-family-base: 'Proxima nova', Arial, sans-serif;
-$font-size-base: rem(ms(0));
-$font-weight-base: normal;
-*/
+
+$font-family-base: 'Roboto', sans-serif;
+$font-family-base-especial: 'Roboto-Medium', sans-serif;
+$font-family-special: 'Allura',cursive;
+
 
 // breakpoints para typi
 $breakpoints: (

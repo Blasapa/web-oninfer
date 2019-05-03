@@ -1,6 +1,7 @@
 body {
   color: $black;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: $font-family-base;
+  font-size: 15px;
 
   border-top: 10px solid green;
   @include media-breakpoint-only(sm) {
@@ -18,5 +19,5 @@ body {
   @include media-breakpoint-up(xxl) {
     border-top: 10px solid darkorchid;
   }
-  
+
 }

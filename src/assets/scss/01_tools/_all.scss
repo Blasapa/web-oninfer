@@ -1,5 +1,5 @@
 // Globally-available tools: Public mixins and helper functions
-@import 'bootstrap/scss/functions';
+@import '../../../../node_modules/bootstrap/scss/functions';
 
 // Gestión de la escala para los textos
 // https://github.com/modularscale/modularscale-sass
@@ -11,7 +11,7 @@
 // Gestión de media queries
 // http://include-media.com/
 @import 'include-media/dist/include-media';
-@import 'bootstrap/scss/variables';
-@import 'bootstrap/scss/mixins';
+@import '../../../../node_modules/bootstrap/scss/variables';
+@import '../../../../node_modules/bootstrap/scss/mixins';
 
 @import 'tools.spacing';
