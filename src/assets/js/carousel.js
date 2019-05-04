@@ -6,12 +6,12 @@ $(document).ready(function() {
 
       setInterval(function() {
         $('.js-carousel > div:first')
-        .fadeOut(200)
+        .fadeOut(0)
         .next()
-        .fadeIn(2000)
+        .fadeIn(0)
         .end()
         .appendTo('.js-carousel');
-      },  2500);
+      },  5000);
     });
 
   }(jQuery));
