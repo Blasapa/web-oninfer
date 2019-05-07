@@ -1,9 +1,16 @@
 .c-bg-foto{
   height: 500px;
-  margin-bottom: -300px;
   background-color: rgba(216, 216, 216, 0.5);
 }
 
 .c-bg-foto--m0{
   margin-bottom: 0;
+}
+
+
+.c-bg-foto--fotos{
+  background:url("/assets/images/bk-fotos.jpg") no-repeat top left;
+  background-size: cover;
+  padding: 80px 0 0;
+  height: 720px;
 }
