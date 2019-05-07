@@ -50,13 +50,18 @@
     <meta name="theme-color" content="#ffffff">
 
 
+
     </head>
     <body class="page-{{currentMenu}}">
         {% block body %}
         {% endblock %}
+
         <!-- inject:vendors:js -->
         <!-- endinject -->
         <!-- inject:js -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
         <!-- endinject -->
         {% include '_includes/grpd.twig' %}
     </body>
