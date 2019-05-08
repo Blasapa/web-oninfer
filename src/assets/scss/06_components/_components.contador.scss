@@ -4,8 +4,8 @@
 
 .c-contador__item{
 
-  margin-right: 10px;
-  padding: 25px;
+  margin-right: 5px;
+  padding: 10px;
   box-shadow: 5px 5px 25px -15px rgba(38, 102, 140, 0.55);
   border-radius: 10px;
   border: 1px solid rgba(188, 217, 241, 0.29);
@@ -15,7 +15,7 @@
   p{
     margin-bottom: 0;
     font-family: $font-size-base;
-    font-size: 52px;
+    font-size: 22px;
   }
 
   p.c-contador-segundos{
@@ -24,6 +24,6 @@
   span{
     color: #6b7176;
     font-family: $font-size-base;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
