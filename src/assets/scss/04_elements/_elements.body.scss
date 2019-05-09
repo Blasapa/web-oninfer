@@ -1,7 +1,13 @@
 body {
   color: $black;
   font-family: $font-family-base;
-  font-size: 15px;
+  font-size: 13px;
+
+
+  @include media-breakpoint-up(md) {
+    font-size: 15px;
+
+  }
 
   border-top: 10px solid green;
   @include media-breakpoint-only(sm) {

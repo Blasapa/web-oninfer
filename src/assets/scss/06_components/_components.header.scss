@@ -53,6 +53,10 @@
 
 
 .c-header__navbar {
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 60px;
+  }
   li {
     position: relative;
     margin: 0 0 0 56px;

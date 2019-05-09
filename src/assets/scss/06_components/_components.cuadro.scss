@@ -1,6 +1,10 @@
 .c-cuadro{
-  padding: 50px 100px 20px;
+  padding: 20px;
   background-color: white;
+
+  @include media-breakpoint-up(md) {
+    padding: 50px 100px 20px;
+  }
 }
 
 

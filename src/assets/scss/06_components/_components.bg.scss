@@ -9,8 +9,14 @@
 
 
 .c-bg-foto--fotos{
-  background:url("/assets/images/bk-fotos.jpg") no-repeat top left;
+  background:url("/assets/images/bk-fotos.jpg") no-repeat top right;
   background-size: cover;
-  padding: 80px 0 0;
+  padding: 30px 0 0;
   height: 720px;
+
+  @include media-breakpoint-up(md) {
+    background:url("/assets/images/bk-fotos.jpg") no-repeat top left;
+    padding: 80px 0 0;
+
+  }
 }

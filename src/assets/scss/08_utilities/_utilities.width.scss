@@ -1,0 +1,5 @@
+.u-w-100-mobile{
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+}

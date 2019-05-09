@@ -4,12 +4,22 @@
 
 
 .u-mb\+\+\+\+{
-  margin-bottom: spacing(4);
+  margin-bottom: spacing(1);
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: spacing(4);
+
+  }
 }
 
 
 .u-mb-120{
-  margin-bottom: 120px;
+  margin-bottom: 60px;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 120px;
+
+  }
 }
 
 .u-mb--300{
@@ -17,8 +27,18 @@
 }
 
 
-.u-mt--90{
-  margin-top: -90px;
+.u-mt--80-mobile{
+
+  @include media-breakpoint-down(md) {
+    margin-top: -80px !important;
+  }
+}
+.u-mt--90\@md{
+
+  @include media-breakpoint-up(md) {
+    margin-top: -90px !important;
+  }
+
 }
 
 .u-mt--300{

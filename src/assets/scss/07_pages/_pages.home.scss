@@ -40,3 +40,11 @@
   margin: 0 auto;
   background-color: rgba(255, 181, 166, 0.2);
 }
+
+
+.p-h-hotel{
+  @include media-breakpoint-down(md) {
+    flex-shrink: 0;
+    flex-basis: 31.5%;
+  }
+}

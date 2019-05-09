@@ -1,7 +1,11 @@
 .c-titulo{
   svg{
-    width:987px;
-    height:330px
+    width:100%;
+
+    @include media-breakpoint-up(md) {
+      width:987px;
+      height:330px;
+    }
   }
 }
 
@@ -10,9 +14,15 @@
   margin-bottom: spacing(base);
   font-family: $font-family-special;
   font-weight: normal;
-  font-size: 88px;
-  line-height: 65px;
+  font-size: 60px;
+  line-height: 1;
   color: $blue-dark;
+
+  @include media-breakpoint-up(md) {
+    font-size: 88px;
+    line-height: 65px;
+
+  }
 }
 
 .c-titulo-destacado--red-light{
