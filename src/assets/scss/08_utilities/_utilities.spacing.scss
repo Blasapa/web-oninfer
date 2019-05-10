@@ -46,5 +46,22 @@
 }
 
 .u-mr\+\+\+\@md{
-  margin-right: spacing(3) !important;
+
+  @include media-breakpoint-up(md) {
+    margin-right: spacing(3) !important;
+  }
+}
+
+
+.u-mr-160\@xl{
+  @include media-breakpoint-up(xl) {
+    margin-right: 160px !important;
+  }
+}
+
+.u-ml-100\@xl{
+
+  @include media-breakpoint-up(xl) {
+    margin-left: 100px !important;
+  }
 }
