@@ -1,7 +1,11 @@
 p {
-  @include typi(base);
 
-  @include media-breakpoint-down(md) {
-    font-size: 12px;
+  font-size: 12px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 14px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 15px;
   }
 }

@@ -3,6 +3,9 @@
   background-color: white;
 
   @include media-breakpoint-up(md) {
+    padding: 30px 40px 20px;
+  }
+  @include media-breakpoint-up(lg) {
     padding: 50px 100px 20px;
   }
 }

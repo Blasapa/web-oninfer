@@ -2,7 +2,8 @@
   svg{
     width:100%;
 
-    @include media-breakpoint-up(md) {
+
+    @include media-breakpoint-up(xl) {
       width:987px;
       height:330px;
     }
@@ -19,6 +20,18 @@
   color: $blue-dark;
 
   @include media-breakpoint-up(md) {
+    font-size: 70px;
+    line-height: 55px;
+
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 75px;
+    line-height: 50px;
+
+  }
+
+  @include media-breakpoint-up(xl) {
     font-size: 88px;
     line-height: 65px;
 

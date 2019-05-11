@@ -31,8 +31,21 @@
   height: 720px;
 
   @include media-breakpoint-up(md) {
+    background-size: contain;
+    height: 530px;
+
+  }
+
+  @include media-breakpoint-up(lg) {
     background:url("/assets/images/bk-fotos.jpg") no-repeat top left;
     padding: 80px 0 0;
+    background-size: contain;
+    height: 720px;
+
+  }
+  @include media-breakpoint-up(xl) {
+
+    background-size: auto;
 
   }
 }
@@ -44,8 +57,15 @@
   background: url(/assets/images/lapiz2.png) no-repeat 39% top;
   background-size: 180%;
   margin-top: -60px;
+
   @include media-breakpoint-up(md) {
     background:url("/assets/images/lapiz2.png") no-repeat top center;
+    background-size: contain;
+    margin-top: -50px;
+  }
+
+
+  @include media-breakpoint-up(lg) {
     background-size: auto;
     margin-top: -100px;
   }

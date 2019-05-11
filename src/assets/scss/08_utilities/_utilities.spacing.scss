@@ -6,7 +6,12 @@
 .u-mb\+\+\+\+{
   margin-bottom: spacing(1);
 
+
   @include media-breakpoint-up(md) {
+    margin-bottom: spacing(2);
+
+  }
+  @include media-breakpoint-up(lg) {
     margin-bottom: spacing(4);
 
   }
@@ -16,7 +21,7 @@
 .u-mb-120{
   margin-bottom: 60px;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin-bottom: 120px;
 
   }
@@ -41,13 +46,21 @@
 
 }
 
+.u-mt--270\@only-md{
+
+  @include media-breakpoint-only(md) {
+    margin-top: -270px !important;
+  }
+
+}
+
 .u-mt--300{
   margin-top: -300px;
 }
 
-.u-mr\+\+\+\@md{
+.u-mr\+\+\+\@lg{
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin-right: spacing(3) !important;
   }
 }

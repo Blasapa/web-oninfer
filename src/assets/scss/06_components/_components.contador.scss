@@ -1,9 +1,14 @@
 .c-contador-container{
+  height: 250px;
 
-
-  @include media-breakpoint-down(md) {
-    height: 190px;
+  @include media-breakpoint-up(md) {
+    height: 570px;
   }
+
+  @include media-breakpoint-up(lg) {
+    height: auto;
+  }
+
 }
 
 
@@ -30,6 +35,12 @@
   @include media-breakpoint-up(md) {
     padding: 25px;
   }
+  @include media-breakpoint-up(lg) {
+    padding: 15px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 25px;
+  }
 
   p{
     margin-bottom: 0;
@@ -38,7 +49,11 @@
     @include media-breakpoint-up(md) {
       font-size: 52px;
     }
+    @include media-breakpoint-only(lg) {
+      font-size: 40px;
+    }
   }
+
 
   p.c-contador-segundos{
     color: $blue;
