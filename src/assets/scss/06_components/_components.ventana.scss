@@ -31,5 +31,10 @@
 
 
 .c-ventana--banquete{
-  max-height: 218px;
+  max-height: 78px;
+
+  @include media-breakpoint-up(md) {
+    max-height: 240px;
+
+  }
 }

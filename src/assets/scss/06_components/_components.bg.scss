@@ -15,8 +15,13 @@
 
 
 .c-bg-foto--hotel{
-  background: url("/assets/images/distrito-oeste.jpg") no-repeat 0% 6%;
-  background-size: cover;
+  background: url("/assets/images/distrito-oeste.jpg") no-repeat top center;
+  background-size: 150%;
+
+  @include media-breakpoint-up(md) {
+    background: url("/assets/images/distrito-oeste.jpg") no-repeat 0% 6%;
+    background-size: cover;
+  }
 }
 
 .c-bg-foto--fotos{
@@ -34,6 +39,16 @@
 
 
 .c-bg-foto--contacto{
-  background:url("/assets/images/lapiz2.png") no-repeat top center;
-  margin-top: -100px;
+
+
+  background: url(/assets/images/lapiz2.png) no-repeat 39% top;
+  background-size: 180%;
+  margin-top: -60px;
+  @include media-breakpoint-up(md) {
+    background:url("/assets/images/lapiz2.png") no-repeat top center;
+    background-size: auto;
+    margin-top: -100px;
+  }
+
+
 }
